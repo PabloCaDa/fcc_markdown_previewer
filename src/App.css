@@ -3,3 +3,7 @@
   --main-secondary-color: #6A685B;
   --main-bg-color: #458773;
 }
+
+.App{
+  font-family: 'Orbitron', sans-serif;
+}

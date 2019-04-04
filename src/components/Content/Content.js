@@ -1,6 +1,5 @@
 import React from 'react'
 
-import QuoteBox from './QuoteBox/QuoteBox'
 
 const contentStyle = {
     height:'80vh',
@@ -12,7 +11,7 @@ const contentStyle = {
 const Content = () => {
   return (
     <div className="container-fluid d-flex justify-content-center align-items-center bg-trans" style={contentStyle}>
-      <QuoteBox></QuoteBox>
+    Content
     </div>
   )
 }
