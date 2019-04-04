@@ -2,17 +2,16 @@ import React from 'react'
 
 const headerStyle = {
     backgroundColor: 'var(--main-secondary-color)',
-    color: '#f2f2f2',
+    color: 'var(--main-title-text-color)',
     padding: '10px 20px',
     textAlign: 'center',
     height:'10vh',
-    transition: 'color 2s'
 }
 
 const Header = () => {
   return (
     <nav style={headerStyle}>
-        <h1>Quotes Machine</h1>
+        <h1>Markdown Previewer</h1>
     </nav>
   )
 }

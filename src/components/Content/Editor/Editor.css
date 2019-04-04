@@ -1,0 +1,25 @@
+.editor__container {
+    width:800px;
+    margin:20px auto
+
+}
+
+.editor__textarea{
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    width:99%;
+    box-shadow: 1px 4px 10px 1px #333;
+    padding:5px;
+    min-height:200px;
+    color: var(--main-text-color);
+    border:1px solid var(--main-secondary-color);
+    border-top:none;
+    transition:none;
+    -webkit-transition:none;
+    -moz-transition:none;
+    -ms-transition:none;
+    -o-transition:none;
+}
+
+.editor__textarea:focus{
+    outline:none
+}

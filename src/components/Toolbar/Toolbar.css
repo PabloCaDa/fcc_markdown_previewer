@@ -1,0 +1,24 @@
+.toolbar {
+    width:99%;
+    padding: 5px;
+    border:1px solid var(--main-secondary-color);
+    color: var(--main-title-text-color);
+    position: relative;
+    background-color: var(--main-toolbars-bgcolor);
+  }
+  
+  .fullScreen__icon {
+    transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    cursor:pointer;
+  }
+  
+  .fullScreen__icon:hover {
+    opacity:0.8;
+  }

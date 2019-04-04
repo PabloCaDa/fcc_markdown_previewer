@@ -1,0 +1,29 @@
+.prev__container{
+    width:1000px;
+    margin:20px auto;
+    min-height: 200px;
+}
+
+.prev__screen{
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    background-color: #cfcfd1f6;
+    color:#333;
+    min-height: 100px;
+    padding:5px;
+    width:99%;;
+    box-shadow: 1px 4px 10px 1px #333;
+    border:1px solid var(--main-secondary-color);
+    border-top:none
+}
+
+.prev__screen h1, .prev__screen h2{
+    border-bottom:1px solid #333;
+}
+
+.prev__screen pre{
+    background-color: #fff;
+}
+
+.prev__screen code{
+    background-color: #fff;
+}
