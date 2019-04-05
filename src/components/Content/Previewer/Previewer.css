@@ -2,6 +2,11 @@
     width:1000px;
     margin:20px auto;
     min-height: 200px;
+    transition: width 0.5s, min-height 0.5s;
+    -webkit-transition: width 0.5s, min-height 0.5s;
+    -moz-transition: width 0.5s, min-height 0.5s;
+    -ms-transition: width 0.5s, min-height 0.5s;
+    -o-transition: width 0.5s, min-height 0.5s;
 }
 
 .prev__container.maximized {
