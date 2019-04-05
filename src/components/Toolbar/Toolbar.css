@@ -8,11 +8,6 @@
   }
   
   .fullScreen__icon {
-    transform:rotate(45deg);
-    -webkit-transform:rotate(45deg);
-    -moz-transform:rotate(45deg);
-    -ms-transform:rotate(45deg);
-    -o-transform:rotate(45deg);
     position: absolute;
     right: 5px;
     top: 10px;

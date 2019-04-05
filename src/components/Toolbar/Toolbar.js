@@ -6,7 +6,9 @@ const Toolbar = (props) => {
     <div className="toolbar">
         <i class="fab fa-free-code-camp mr-2"></i>
             {props.title}
-        <i className="fas fa-arrows-alt fullScreen__icon"></i>
+        <i className={`${!props.fullScreen? 'fas fa-expand-arrows-alt':'fas fa-compress-arrows-alt'} fullScreen__icon`} 
+            onClick={props.toggleFullScreen}>
+        </i>
     </div>
   )
 }

@@ -4,6 +4,14 @@
 
 }
 
+.editor__container.maximized {
+    width:95vw;
+    min-height: 100vh;
+    margin:20px auto
+
+}
+
+
 .editor__textarea{
     font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
     width:99%;
@@ -20,6 +28,11 @@
     -o-transition:none;
 }
 
+
 .editor__textarea:focus{
     outline:none
+}
+
+.editor__container.maximized .editor__textarea{
+    min-height: 80vh;
 }

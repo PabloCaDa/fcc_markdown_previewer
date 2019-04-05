@@ -7,15 +7,19 @@ marked.setOptions({
     breaks: true,
   });
   
-  const renderer = new marked.Renderer();
-  renderer.link = function (href, title, text) {
-    return `<a target="_blank" href="${href}" tilte=${title}>${text}</a>`;
-  }
+const renderer = new marked.Renderer();
+renderer.link = function (href, title, text) {
+  return `<a target="_blank" href="${href}" tilte=${title}>${text}</a>`;
+}
 
 const Previewer = (props) => {
   return (
-    <div className="prev__container">
-        <Toolbar title="Previewer"/>
+    <div className={`prev__container ${props.previewerFull? 'maximized':''}`} >
+        <Toolbar 
+          title="Previewer" 
+          toggleFullScreen={props.togglePreviewerFull}
+          fullScreen={props.previewerFull}
+        />
         <div id="preview" 
             dangerouslySetInnerHTML={{__html: marked(props.markdown, { renderer: renderer })}} 
             className="prev__screen">

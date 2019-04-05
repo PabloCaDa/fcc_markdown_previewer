@@ -4,6 +4,13 @@
     min-height: 200px;
 }
 
+.prev__container.maximized {
+    width:95vw;
+    min-height: 100vh;
+    margin:20px auto
+
+}
+
 .prev__screen{
     font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
     background-color: #cfcfd1f6;
