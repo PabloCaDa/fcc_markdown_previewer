@@ -8,7 +8,7 @@ import Content from './components/Content/Content'
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div id="drum-machine" className="App">
         <Header />
         <Content />
         <Footer />
